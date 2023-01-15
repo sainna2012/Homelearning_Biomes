@@ -1,7 +1,8 @@
 body{
     text-align: center;
+    background: linear-gradient(#fcfcfc 0%, #d8bc83 100%);
 }
-#welcome {
+#biome {
     color: #FFFFFF;
     bottom: 0;
     background: linear-gradient(#fcfcfc 0%, #d8bc83 100%);
@@ -10,12 +11,27 @@ body{
     height: 100%;
     z-index: 9;
 }
-#myfirstbiome {
-    color: #ad5151;
+img {
+  border: 4px solid #ddd;
+  border-radius: 50x;
+  padding: 5px;
+  text-align: center;
+  width: 1000px;
 }
-#plantsofthesonorandesert {
-    color: #1b7c32;
+.img1 {
+    border: 4px solid #ddd;
+    border-radius: 20x;
+    padding: 3px;
+    text-align: center;
+    width: 200px;
+  }
+.line {
+    border-width:1px;
+    border-style:solid;
+    border-color:#9ca2a7; 
+    border: 1px solid rgb(165, 168, 165);
+    padding-left: 0px;
+    padding-right: 0px;
+    float: none;
 }
-#whatisabiome {
-    color: #1b2776;
-}
+
